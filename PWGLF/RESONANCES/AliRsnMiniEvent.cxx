@@ -126,7 +126,7 @@ AliRsnMiniParticle *AliRsnMiniEvent::LeadingParticle()
 //
 // Return the leading particle
 //
-
+   Printf("Leadfsewd %d", fLeading);
    if (fLeading < 0) return 0x0;
    if (fLeading >= fParticles.GetEntriesFast()) return 0x0;
 
